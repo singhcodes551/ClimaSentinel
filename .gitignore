@@ -1,0 +1,55 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+backend/.venv/
+backend/venv/
+backend/env/
+
+# Python Cache & Bytecode
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+**/.pytest_cache/
+backend/.pytest_cache/
+
+# Node & Frontend Build Outputs
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+frontend/build/
+frontend/.vite/
+*.local
+
+# Environment & Secret Files
+.env
+.env.*
+!.env.example
+
+# SQLite Databases & Temporary Journal Files
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.db-journal
+backend/*.db
+backend/*.sqlite3
+
+# Uploaded Datasets & User Data (Preserve Directory via .gitkeep)
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
